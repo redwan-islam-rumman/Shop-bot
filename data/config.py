@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7437111119:AAGXODPNumex6CMDKAmAV8MhunrF_JRP_Fg")
 
-PROJECT_NAME = os.getenv("PROJECT_NAME")
+PROJECT_NAME = os.getenv("Ton")
 
 # Heroku webhook
 # WEBHOOK_HOST = f"https://{PROJECT_NAME}.herokuapp.com"
@@ -21,4 +21,4 @@ if WEBHOOK_HOST and WEBHOOK_PATH:
 else:
     WEBHOOK_URL = None
 
-ADMINS = list(map(int, os.getenv("ADMINS", "").split(",")))
+ADMINS = list(map(int, os.getenv("ADMINS", "6333241904").split(",")))
